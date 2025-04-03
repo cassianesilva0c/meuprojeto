@@ -1,0 +1,20 @@
+name: frontend
+description: Aplicativo Flutter para gerenciar lista de tarefas.
+
+publish_to: 'none' # Evita publicar o app no pub.dev
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.6  # Comunicação com o backend
+  provider: ^6.0.5 # Gerenciamento de estado
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
